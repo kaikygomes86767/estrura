@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #1b1b1b;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #ff4c29;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff4c29;
+}
+
+/* BANNER */
+.banner {
+    background: url('https://via.placeholder.com/1200x400') center/cover;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner h1 {
+    font-size: 40px;
+}
+
+/* GAMES */
+.games {
+    padding: 40px;
+}
+
+.game-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.game-card {
+    background: #222;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.game-card:hover {
+    transform: scale(1.05);
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: #ff4c29;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #ff2a00;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1b1b1b;
+}
